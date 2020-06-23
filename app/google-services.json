@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "124691686102",
+    "firebase_url": "https://tvbase-b78d2.firebaseio.com",
+    "project_id": "tvbase-b78d2",
+    "storage_bucket": "tvbase-b78d2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:124691686102:android:dc3b819630cfd84ac49f77",
+        "android_client_info": {
+          "package_name": "com.ahmedrarga.finalproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "124691686102-jm8g9j8qfeegic7ce9am94990d1oddam.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ahmedrarga.finalproject",
+            "certificate_hash": "b3162117287d605ecdfae11d7708821103f22dfe"
+          }
+        },
+        {
+          "client_id": "124691686102-h2vc3o72khs7ns0b2v0aumt92afbn8e0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvcGstjW6SLVFuomhxjzqOz3E2-nNXOcA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "124691686102-h2vc3o72khs7ns0b2v0aumt92afbn8e0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

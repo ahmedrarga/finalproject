@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.ahmedrarga.finalproject">
+
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="false"
+        android:theme="@style/AppTheme"
+        android:windowSoftInputMode="adjustResize"
+        tools:replace="android:supportsRtl"
+        tools:ignore="GoogleAppIndexingWarning">
+
+        <activity android:name=".RecommenderSystem.recommenderActivity" />
+        <activity android:name=".Account.RatingsActivity" />
+        <activity android:name=".User.ProfileActivity" />
+        <activity android:name=".GalleryActivity" />
+        <activity android:name=".ImageActivity" />
+        <activity
+            android:name=".Account.SettingsActivity"
+            android:label="@string/title_activity_settings"
+            android:parentActivityName=".BaseActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.ahmedrarga.finalproject.BaseActivity" />
+        </activity>
+
+
+        <activity android:name=".NewPostActivity" />
+        <activity android:name=".EpisodeActivity" />
+        <activity android:name=".BaseActivity" />
+        <activity android:name=".User.WatchlistActivity" />
+        <activity android:name=".Account.resetPassword" />
+        <activity
+            android:name=".HomePage.HomeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/intro">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MovieProfile.MovieProfileActivity" />
+        <activity
+            android:name=".Account.RegisterActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Account.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".User.DiscoverActivity"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>
